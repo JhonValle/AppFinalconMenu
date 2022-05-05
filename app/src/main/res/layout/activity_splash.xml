@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meowth"
+    tools:context=".SplashActivity">
+    <me.ibrahimsn.particle.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:particleCount="30"
+        app:particleMinRadius="3"
+        app:particleMaxRadius="5"
+        app:particlesBackgroundColor="@color/white1"
+        app:particleColor="#eec681"
+        app:particleLineColor="#c9a870"
+        app:particleLinesEnabled="true" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/la_centerAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_gravity="center_vertical"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/carga" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/la_centerAnimation1"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_gravity="right"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/carga3" />
+
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="cursive"
+        android:text="\nJhon Darwin Valle Ccorimanya\n019101959B\n70458190\n20 Años \ndarwin02valle@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+</FrameLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.filantropos.FilantroposFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="421dp"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/billgates" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bill y Melinda Gates"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Bill Gates había contraído matrimonio en 1994 con Melinda French, con la que tendría tres hijos. En el año 2000 creó, junto con su esposa, la Fundación Bill y Melinda Gates, institución benéfica dedicada a temas sanitarios y educativos cuya espléndida dotación económica procede mayormente de su fortuna personal."
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        tools:layout_editor_absoluteX="142dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/feney" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chuck Feeney"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="Harles Francis Feeney es un empresario y filántropo irlandés-estadounidense que hizo su fortuna como cofundador del Duty Free Shoppers Group con sede en Hong Kong. Es el fundador de The Atlantic Philanthropies, una de las fundaciones benéficas privadas más grandes del mundo. Nacimiento: 23 de abril de 1931 (edad 90 años), Elizabeth, Nueva Jersey, Estados Unidos.Cónyuge: Helga Feeney (m. 1995)Hijos: Juliette Feeney, Diane Feeney, Patrick Feeney, Leslie Feeney, Caroleen FeeneyEducación: Cornell University School of Hotel Administration, St. Mary of the Assumption High School"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/kengrif" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ken Griffin"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Ken Griffin, de 46 años, es una de las personas más influyentes de Wall Street. Empezó a construir su imperio en un dormitorio de la Universidad de Harvard, donde logró que le instalaran una antena parabólica para seguir sus inversiones. El fondo Citadel empezó a funcionar unos años después con cuatro millones"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/koch" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Charles Koch"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Charles de Ganahl Koch (Wichita, Kansas, Estados Unidos, 1 de noviembre de 1935) es un empresario multimillonario y copropietario estadounidense, junto con la familia de su difunto hermano David Koch (1940-2019), de la empresa Koch Industries, un conglomerado de empresas estadounidenses con numerosas filiales dedicadas a la fabricación, comercio e inversiones, que se estima que dan como ingresos anuales unos 100.000 millones de dólares. Él y su hermano David compraron la parte de sus otros dos hermanos. Es según Forbes la segunda empresa privada más grande del país después de Cargill.Según la revista Forbes (2017) es la octava persona más rica del mundo con una riqueza de $48.500 millones de dólares."
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/paulallen" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Paul Allen"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Paul Gardner Allen (Seattle, Washington; 21 de enero de 1953-ibídem, 15 de octubre de 2018)​​​ fue un empresario, magnate de negocios, inversor y filántropo estadounidense. Junto con Bill Gates fue fundador de la empresa Microsoft.Nacimiento: 21 de enero de 1953; Seattle, Nombre de nacimiento: Paul Gardner Allen,Fallecimiento: 15 de octubre de 2018 (65 años)"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/pierre" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pierre Omidyar"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Pierre Omidyar nació en París, Francia; de padres iraníes que habían sido enviados por sus abuelos a asistir a la universidad. Su madre, Elahe Mir-Djalali Omidyar, hizo su doctorado en Lingüística en la Sorbona y es una académica de renombre. Su abuelo era cirujano. La familia se mudó a los EE.Miembro de: Academia Estadounidense.Cónyuge: Pam OmidyarEducado en: Universidad Tufts;"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/robertson" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Julian Robertson"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Julian Robertson fue todo un pionero en la industria de los hedge funds. En 1980 crea Tiger Management Corp donde se han formado algunos de los mejores gestores de la actualidad. Retirado en el 2000 actualmente se dedica a invertir en fondos dirigidos por gestores a los que él personalmente formó.Nacimiento: 25 de junio de 1932 (edad 89 años), Salisbury, Carolina del Norte, Estados Unidos.Cónyuge: Josephine Tucker Robertson (m. 1972–2010).Patrimonio neto: 4,8 miles de millones USD (2022) Forbes.Hijos: Alex Robertson, Spencer Robertson, Jay Robertson.Educación: Escuela de Secundaria Episcopal"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/simons" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jim y Marilyn Simons"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="James Harris Simons (1938) es un matemático, académico, mercader financiero, agente de fondos, corredor de bolsa, inversor y filántropo estadounidense.Después de su carrera académica como matemático, Simons funda, en 1982, Renaissance Technologies, una firma de inversión privada con sede en Nueva York, con más de 15000 millones de dólares en activos. Simons sigue a la cabeza, como presidente ejecutivo, del que es el más exitoso fondo de alto riesgo (hedge funds o fondo de inversión libre) del mundo.Jim Simons es nieto del propietario de una fábrica de zapatos en Massachusetts.4​ Obtuvo su grado de Bachelor of Science (BS) en matemáticas en el Instituto Tecnológico de Massachusetts en 1958,[1] y su grado de Doctor of Philosophy (Ph.D.), también en matemáticas en la Universidad de California en Berkeley en 19615​ a los 23 años."
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/zuckerberg" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mark Zuckerberg"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Mark Elliot Zuckerberg (White Plains, Nueva York; 14 de mayo de 1984) es un programador y empresario estadounidense, uno de los creadores y fundadores de Facebook (desde 2021, Meta Platforms) y la red social homónima, y su actual presidente.Nombre de nacimiento: Mark Elliot Zuckerberg.Nacimiento: 14 de mayo de 1984 (37 años).Educado en: Universidad de Harvard.Familiares: Randi Zuckerberg (hermana)"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            tools:layout_editor_absoluteX="142dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
